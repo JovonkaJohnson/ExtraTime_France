@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     btn.addEventListener("click", () => {
       if (id === "7" && !REQUIRED.every(x => visited.includes(x))) {
-        alert("Complete all 6 cards to unlock this!");
+        alert("Collectionnez les 6 cartes pour débloquer ceci !");
         return;
       }
       const page = btn.dataset.page;
