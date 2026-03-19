@@ -129,7 +129,7 @@ color: rgba(76, 76, 76, 0.768)
 }
 
 .nav-grid a img {
-  width: 100%;
+  width: 80%;
   
   height: auto;
   transition: transform 0.3s ease;
@@ -323,7 +323,7 @@ margin-bottom: 5%;
 
 padding-top: 30%;
 padding-bottom: 30%;
-margin-bottom: 10%;
+margin-bottom: 0%;
 color:#fff9e2;
   position:relative;
   font-size: clamp(16px, 2.5vw, 20px);
@@ -359,7 +359,7 @@ width: 100%;
   text-align: left;
   padding-left: 2%;
   padding-right: 2%;
-  font-size:clamp(18px,2.7vw,27px);
+  font-size:clamp(15px,2.7vw,27px);
   text-transform: uppercase;}
   
 .scribble-underline {
@@ -370,7 +370,7 @@ width: 100%;
 }
 
 .section4 {
-  margin-bottom: 10%;
+  margin-bottom: 0%;
   display: flex;
   justify-content: center;       /* center horizontally */
   width: 100%;
@@ -417,14 +417,14 @@ width: 100%;
 
 /* Scripture title with background image */
 .scripture-title {
-  background: url('images/section5.png') center/cover no-repeat;
-  color: white;
-padding: 7%;
-margin-top: 7%;
-text-align: center;
-  font-weight: bold;
-  font-size: clamp(18px, 2.5vw, 25px);
-}
+      background: url('images/section5.png') center/cover no-repeat;
+      color: white;
+      padding: 9%;
+      margin-top: 10%;
+      text-align: center;
+      font-weight: bold;
+      font-size: clamp(15px, 2.5vw, 25px);
+    }
 
 /* Scripture text normal */
 .scripture-text {
@@ -445,6 +445,68 @@ text-align: center;
 
   margin-top: 20px;
 }
+h2{
+  text-align: left;
+  padding: 11%;
+  margin-top: 20%;
+  margin-bottom: -10%;
+}
+
+.chat-card {
+  background: #cda40076;
+  margin-top: 30%;
+  border-radius: 20px;
+  text-align: center;
+  width: 80%;
+margin-left: 10%;
+
+}
+
+.chat-card h2 {
+  
+  font-family: 'Russo One', sans-serif;
+  margin-bottom: -4%;
+  text-align: center;
+  font-size: 160%;
+}
+
+.chat-card p {
+  color: #333;
+  margin-bottom: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 13px;
+  font-family:'Poppins', sans-serif;
+}
+
+.chat-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.icon {
+  margin-bottom: 10%;
+  width: 80px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  width: 65%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 900%;
+  transition: transform 0.2s ease;
+}
+
+.icon img:hover {
+  transform: scale(1.1);
+}
+
 </style>
 </head>
 
@@ -501,8 +563,7 @@ text-align: center;
           </i> 
         </span>
       </p>
-      <p>Ce n'est pas seulement une couronne. C'est la vie éternelle que Jésus nous donne. 
-      </p>
+     
       </div>
       
       </section>
@@ -511,7 +572,8 @@ text-align: center;
     <section class="section section2">
     
     <div class="text-box">
-    
+      <p>Ce n'est pas seulement une couronne. C'est la vie éternelle que Jésus nous donne. 
+      </p>
     <p>Que devons-nous faire pour obtenir cette vie éternelle ? 
 
     </p>
@@ -547,36 +609,32 @@ text-align: center;
         <p>Et une vie vécue pour Jésus mérite d'être célébrée.</p>
      
         <!-- Last line as h1 with blue background -->
-        <h1 class="cta-line">La Célébration - Découvre ce prix qui dure éternellement. 
-        </h1>
+        <p class="scripture-title">La Célébration - Découvre ce prix qui dure éternellement. 
+        </p>
         
       </div>
     </section>
 
+    <div class="chat-card">
+      <h2>Discutez avec nous</h2>
+      <p>
+        Tu te poses des questions sur la foi, la vie ou ce que Dieu a prévu pour toi ?
+        Parle avec un vrai coach pour t’accompagner dans ton parcours de foi.
+      
+      </p>
+    
+      <div class="chat-icons">
+        <a href="http://m.me/1053909014464904" class="icon">
+          <img src="images/Messanger.png" alt="Messenger">
+        </a>
+        <a href="#" class="icon">
+          <img src="images/Instagram.png" alt="Instagram">
+        </a>
+      </div>
+  
+    </div>
 
-    <a href="" target="_blank" class="banner-button">
-      <img src="images/French-colored.webp" alt="" class="banner-img" />
-
-    </a>
-
-  <!-- OR Continue Here -->
-  <div class="or-heading"></div>
-<!-- CTA SECTION -->
-<div class="cta-section">
-
-  <div class="cta-text">
-    Tu te poses des questions sur la foi, la vie ou ce que Dieu a prévu pour toi ?<br>
-    Parle avec un vrai coach pour t’accompagner dans ton parcours de foi.
-  </div>
-
-  <a href="#menu-buttons" class="cta-btn">
-    Instagram
-  </a>
-  <a href="http://m.me/1053909014464904" class="cta-btn">
-    Facebook
-  </a>
-
-</div>
+<h2>En savoir plus</h2>
   <!-- 2x2 PNG Grid -->
   <div class="nav-grid">
     <a href="page6.1.html"><img src="images/Close Contol Card.webp"></a>
